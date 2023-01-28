@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Envi Fest</title>
+    <link rel="icon" href="logo.png" type="image/jpeg" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="index.css  ">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -24,6 +25,9 @@
              <li class="nav-item">
                     <a class="nav-link text-white" href="index.html">Home</a>
                   </li>
+            <li class="nav-item">
+                   <a class="nav-link text-white"  data-bs-toggle="modal" data-bs-target="#aboutusModal" href="#">About us</a>
+             </li>    
             
               <li class="nav-item">
                 <a class="nav-link text-white" href="#events">Events</a>
@@ -31,7 +35,7 @@
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">Proshow</a>
               </li>
-              
+            
               <li class="nav-item">
                 <a class="nav-link text-white" href="#contacts" >Contact</a>
               </li>
@@ -39,12 +43,57 @@
           </div>
         </div>
       </nav>
+      
 </header>
 <section>
     <div>
+        <a  data-bs-toggle="modal" data-bs-target="#aboutusModal" href="#">
         <img src="logo1.png" class="img-fluid logohover desktop-only"  alt="...">
-        <img src="logom1.png" class="img-fluid logohover p-4 mobile-only"  alt="...">
+        <img src="logom1.png" class="img-fluid logohover p-4 mobile-only"  alt="..."></a>
     </div>   
+ 
+ 
+
+  
+  <!-- Modal -->
+  <div class="modal " id="aboutusModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: black; color:#ffa913; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; " >
+          <h3 class="modal-title" id="exampleModalLabel">ABOUT ENVI </h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:#ffa913 ;"></button>
+        </div>
+        <div class="modal-body" style="background-color: black; color: white;">
+          <img src="DJI_0811.JPG" class="img-fluid  "  alt="...">
+          ENVI (Encoded Virtual Intelligence) is the festival of
+          technology, thought and innovation conducted by
+          the Department of Computer Science of <a href="https://www.devagiricollege.org/" style="text-decoration: none;">St. Joseph's
+          College (Autonomous), Devagiri, Calicut.</a> With a
+          wide variety of events, having participants from all
+          over the nation, ENVI is the platform for the
+          students to develop and showcase technical
+          proficiency as well as artistic talents.
+          ENVI came into reality on 25th January 2018. ENVI has
+          a significant presence on the social media platforms
+          and has reached a large audience. The Instagram page
+          of ENVI has about 3000 followers and 3,00,000
+          impressions. To test the technical knowledge of the
+          students, events such as Coding, Debugging, ReAssembling, App challenge, Designing are being
+          conducted. Also competitions in Gaming, Treasure
+          hunt, and quizzes are held. IT Exhibitions are being
+          conducted to impart awareness about the latest tech
+          innovations and trends. One of the highlights of
+          ENVI 5 event is ‘Hackathon’, where students form
+          teams to brainstorm and create innovative tech
+          solutions to real-world problems. The pro-show
+          Gravity has always been a visually stunning and
+          captivating performance. ENVI 5 aims to conduct the
+          program nationwide, in all its glory
+        </div>
+        
+      </div>
+    </div>
+  </div>
 </section>
    <h3 class="text-event ">EVENTS</h3>
 <section id="events">

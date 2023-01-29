@@ -16,7 +16,14 @@
     color: #ffa913;
 }
 
-
+.text-timer{
+    color: #ffa913;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+   
+    
+}
 .text-event{
     color: #ffa913;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
